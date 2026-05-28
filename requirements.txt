@@ -1,0 +1,28 @@
+# hCaptcha Solver for Steam Login
+# Core dependencies
+
+# Browser automation
+playwright>=1.40.0
+
+# Speech recognition (audio challenge solving)
+SpeechRecognition>=3.10.0
+pydub>=0.25.1
+
+# HTTP requests
+requests>=2.31.0
+aiohttp>=3.9.0
+
+# Image processing (optional, for local model)
+# Uncomment if using local image classification:
+# torch>=2.0.0
+# torchvision>=0.15.0
+# Pillow>=10.0.0
+
+# Optional: Whisper for better audio transcription
+# openai-whisper>=20231117
+
+# Optional: Vosk for offline speech recognition
+# vosk>=0.3.45
+
+# Utilities
+python-dotenv>=1.0.0
